@@ -1,0 +1,42 @@
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2%;
+  min-height: 100vh;
+  background: #ead7c3;
+  padding: 0% 12% 3% 12%;
+}
+
+.clothingGridCard {
+  text-decoration: none;
+  color: black;
+  margin-top: 2%;
+  box-shadow: 3px 3px 3px 2px rgba(134, 122, 110, 0.6352941176);
+  background: #ffffff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.clothingGridImg {
+  width: 280px;
+  height: 345px;
+}
+
+.clothingGridDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+.clothingGridDescription > * {
+  margin: 1%;
+  color: #2b2824;
+  font-weight: 900;
+  font-size: 140%;
+}
+.clothingGridDescription > .gridClothingName {
+  color: rgba(36, 34, 31, 0.7137254902);
+  font-size: 130%;
+}/*# sourceMappingURL=style.css.map */

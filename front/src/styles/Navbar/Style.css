@@ -1,0 +1,39 @@
+.Navbar {
+  background-color: #ead7c3;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  position: sticky;
+  gap: 5%;
+  width: 100%;
+  height: 12vh;
+  left: 0px;
+  top: 0px;
+  box-shadow: 2px 5px 3px #8e827683;
+  z-index: 200;
+}
+
+.imagen {
+  height: 120px;
+}
+
+.Boton {
+  color: #000000;
+}
+a {
+  text-decoration: none;
+}
+
+.formulario {
+  margin-top: 20px;
+}
+
+.caja-botones {
+  margin-right: 10%;
+  width: fit-content;
+}
+
+.barrita-de-busqueda {
+  border-radius: 10px;
+  margin-left: 3%;
+}

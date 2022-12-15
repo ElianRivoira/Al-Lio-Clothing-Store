@@ -1,0 +1,32 @@
+.title {
+  margin-top: 190px;
+  font-family: "Basis Grotesque Pro";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: rgb(73, 64, 64);
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  background-color: #ead7c3;
+  margin-left: 90px;
+  margin-left: 190px;
+  margin-right: 360px;
+  border-radius: 15px;
+  margin-top: -110px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-input {
+  display: flex;
+  justify-content: center;
+}
+
+#last-div {
+  margin-top: 15px;
+}

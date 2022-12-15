@@ -1,0 +1,101 @@
+[
+  {
+    "name": "remera clara",
+    "colour": "blanco",
+    "size": "M",
+    "price": 500,
+    "stock": 10000,
+    "category": "remera",
+    "description": "remera blanca clasica",
+    "img": "img",
+    "rating": 5
+  },
+  {
+    "name": "remera negra",
+    "colour": "negro",
+    "size": "M",
+    "price": 550,
+    "stock": 10000,
+    "category": "remera",
+    "description": "remera negra clasica",
+    "img": "img",
+    "rating": 4
+  },
+  {
+    "name": "pantalon negra",
+    "colour": "negro",
+    "size": "M",
+    "price": 550,
+    "stock": 10000,
+    "category": "pantalon",
+    "description": "pantalon negra clasica",
+    "img": "img",
+    "rating": 4
+  },
+  {
+    "name": "pantalon claro",
+    "colour": "blanco",
+    "size": "M",
+    "price": 500,
+    "stock": 10000,
+    "category": "pantalon",
+    "description": "pantalon blanco clasico",
+    "img": "img",
+    "rating": 5
+  },
+  {
+    "user": {
+      "name": "Elian",
+      "address": "9 de julio",
+      "email": "pepe@gmail.com",
+      "password": "3214",
+      "genre": "m"
+    },
+    "product":{
+      "name":"remera-basica",
+      "colour":"red",
+      "size":"M",
+      "price":250,
+      "stock":100,
+      "category":"remera",
+      "description":"remera basica",
+      "img":["https://static.dafiti.com.ar/p/polo-label-2050-054934-3-zoom.jpg", "https://static.dafiti.com.ar/p/polo-label-2048-054934-2-zoom.jpg"]
+    },
+    "cart":{
+      "userId":1,
+      "productId":1,
+      "quantity":2
+    }
+  }
+]
+
+
+{
+  "user": {
+    "name": "Elian",
+    "direccion": "9 de julio",
+    "email": "pepe@gmail.com",
+    "password": "3214",
+    "genre": "male",
+    "type": "user",
+    "credits": 150
+  },
+  "product":{
+    "name":"remera-basica",
+    "colour":"red",
+    "size":"M",
+    "price":250,
+    "stock":100,
+    "category":"remera",
+    "description":"remera basica"
+  },
+  "cart":{
+    "userId":1,
+    "productId":1,
+    "quantity":2
+  }
+}
+http://localhost:3001/api/users/register
+http://localhost:3001/api/products/
+http://localhost:3001/api/cart/
+http://localhost:3001/api/checkout/send

@@ -1,0 +1,29 @@
+.fotoItem {
+  width: 400px;
+  border-radius: 2%;
+  margin-top: 10%;
+}
+
+.divCentrado {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.topDiv {
+  margin-top: 8%;
+}
+
+.divReviews {
+  margin: 8%;
+  padding-left: 4%;
+  padding-right: 15%;
+}
+
+.divReview {
+  border: 2px solid;
+  border-color: #ead7c3;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 7px;
+}

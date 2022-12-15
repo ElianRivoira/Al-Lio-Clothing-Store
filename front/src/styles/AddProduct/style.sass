@@ -1,0 +1,89 @@
+.formContainer
+    margin: 1% calc(100%/3)
+    background: #ead7c3
+    padding: 1.5%
+    box-shadow: 8px 8px 3px #887d7263
+    border-radius: 5px
+    max-width: calc(100%/3)
+    min-width: fit-content
+    >.inputsContainer
+        height: fit-content
+        display: flex
+        flex-direction: column
+        >*
+            margin-top: 3%
+        >button
+            font-size: 130%
+            width: 30%
+            align-self: center
+            border-radius: 10px
+            background: #f7ebdf
+            cursor: pointer
+            transition: 0.3s
+        >button:hover
+            background: #f9e5cf
+            font-size: 140%
+            transition: 0.3s
+        >button:active
+            font-size: 120%
+        >textarea
+            height: 5vh
+            font-size: 120%
+            text-align: center
+            border-radius: 5px
+            transition: 0.3s
+        >textarea:focus
+            height: 10vh
+            padding: 2% 0% 2% 1%
+            transition: 0.3s
+            outline: none
+        >label
+            font-size: 120%
+            >select
+                font-size: 100%
+                background: #f8efe5e6
+                margin-left: 2%
+                border-radius: 5px
+                border-top: none
+                border-left: none
+                border-right: none
+                transition: 0.3s
+            >select:focus
+                transition: 0.3s
+                padding: 2% 0% 2% 1%
+                outline: none
+            >input
+                font-size: 100%
+                border-top: none
+                border-left: none
+                border-right: none
+                margin-left: 2%
+                background: #fef4e9a5
+                border-radius: 5px
+                transition: 0.3s
+                width: fit-content
+            >input:focus
+                outline: none
+                transition: 0.3s
+                padding: 2% 0% 2% 1%
+    >.addProductTitle
+        border-bottom: 3px solid #ffffff
+        width: fit-content
+        margin: 3% auto
+
+@media screen and ( max-width:600px  )
+    .formContainer
+        min-width: 100%
+        margin: 0%
+        display: flex
+        flex-direction: column
+        text-align: center
+        min-height: fit-content
+        >.inputsContainer
+            justify-content: center
+            align-items: center
+            >*
+                margin-top: 3%
+     
+            
+        

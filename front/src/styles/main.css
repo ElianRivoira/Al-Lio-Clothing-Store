@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Canaro;
+  src: url("fonts/Canaro/OTF/Canaro-LightDEMO.otf") format("opentype");
+}
+.bodyContainer {
+  height: 88vh;
+}
+
+body {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: Canaro;
+}/*# sourceMappingURL=main.css.map */

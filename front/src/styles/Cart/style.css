@@ -1,0 +1,43 @@
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartTitle > h1 {
+  border-bottom: 2px solid #ead7c3;
+  font-weight: 500;
+  font-size: 250%;
+  text-shadow: 1px 1px 1px rgba(1, 0, 0, 0.4078431373);
+}
+
+.finalPrice {
+  font-weight: 500;
+  margin: 2%;
+}
+
+.cartButtonsContainer {
+  display: flex;
+  gap: 3%;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.cartButtonsContainer > button {
+  box-shadow: 3px 3px 3px rgba(111, 102, 92, 0.5411764706);
+  transition: 0.3s ease;
+}
+.cartButtonsContainer > button:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.cartButtonsContainer > button:active {
+  transform: scale(0.9);
+  transition: 0.2s ease;
+}/*# sourceMappingURL=style.css.map */
